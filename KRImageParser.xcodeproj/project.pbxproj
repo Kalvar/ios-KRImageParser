@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EFABA79176F184F00028ED9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EFABA78176F184F00028ED9 /* UIKit.framework */; };
+		8EFABA7B176F184F00028ED9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EFABA7A176F184F00028ED9 /* Foundation.framework */; };
+		8EFABA7D176F184F00028ED9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EFABA7C176F184F00028ED9 /* CoreGraphics.framework */; };
+		8EFABA83176F184F00028ED9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EFABA81176F184F00028ED9 /* InfoPlist.strings */; };
+		8EFABA85176F184F00028ED9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFABA84176F184F00028ED9 /* main.m */; };
+		8EFABA89176F184F00028ED9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFABA88176F184F00028ED9 /* AppDelegate.m */; };
+		8EFABA8B176F184F00028ED9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EFABA8A176F184F00028ED9 /* Default.png */; };
+		8EFABA8D176F184F00028ED9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EFABA8C176F184F00028ED9 /* Default@2x.png */; };
+		8EFABA8F176F184F00028ED9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EFABA8E176F184F00028ED9 /* Default-568h@2x.png */; };
+		8EFABA92176F184F00028ED9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFABA91176F184F00028ED9 /* ViewController.m */; };
+		8EFABA95176F184F00028ED9 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EFABA93176F184F00028ED9 /* ViewController.xib */; };
+		8EFABA9F176F185D00028ED9 /* KRImageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFABA9E176F185D00028ED9 /* KRImageParser.m */; };
+		8EFABAA1176F22D400028ED9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EFABAA0176F22D400028ED9 /* AssetsLibrary.framework */; };
+		8EFABAA3176F234600028ED9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EFABAA2176F234600028ED9 /* AVFoundation.framework */; };
+		8EFABAA5176F238700028ED9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EFABAA4176F238700028ED9 /* CoreMedia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8EFABA75176F184F00028ED9 /* KRImageParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRImageParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EFABA78176F184F00028ED9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8EFABA7A176F184F00028ED9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8EFABA7C176F184F00028ED9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8EFABA80176F184F00028ED9 /* KRImageParser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KRImageParser-Info.plist"; sourceTree = "<group>"; };
+		8EFABA82176F184F00028ED9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8EFABA84176F184F00028ED9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EFABA86176F184F00028ED9 /* KRImageParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KRImageParser-Prefix.pch"; sourceTree = "<group>"; };
+		8EFABA87176F184F00028ED9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8EFABA88176F184F00028ED9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8EFABA8A176F184F00028ED9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8EFABA8C176F184F00028ED9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8EFABA8E176F184F00028ED9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8EFABA90176F184F00028ED9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8EFABA91176F184F00028ED9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8EFABA94176F184F00028ED9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		8EFABA9D176F185D00028ED9 /* KRImageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRImageParser.h; sourceTree = "<group>"; };
+		8EFABA9E176F185D00028ED9 /* KRImageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRImageParser.m; sourceTree = "<group>"; };
+		8EFABAA0176F22D400028ED9 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		8EFABAA2176F234600028ED9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8EFABAA4176F238700028ED9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EFABA72176F184F00028ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFABAA5176F238700028ED9 /* CoreMedia.framework in Frameworks */,
+				8EFABAA3176F234600028ED9 /* AVFoundation.framework in Frameworks */,
+				8EFABAA1176F22D400028ED9 /* AssetsLibrary.framework in Frameworks */,
+				8EFABA79176F184F00028ED9 /* UIKit.framework in Frameworks */,
+				8EFABA7B176F184F00028ED9 /* Foundation.framework in Frameworks */,
+				8EFABA7D176F184F00028ED9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EFABA6C176F184F00028ED9 = {
+			isa = PBXGroup;
+			children = (
+				8EFABA9B176F185D00028ED9 /* Classes */,
+				8EFABA7E176F184F00028ED9 /* KRImageParser */,
+				8EFABA7F176F184F00028ED9 /* Supporting Files */,
+				8EFABA77176F184F00028ED9 /* Frameworks */,
+				8EFABA76176F184F00028ED9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EFABA76176F184F00028ED9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EFABA75176F184F00028ED9 /* KRImageParser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EFABA77176F184F00028ED9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EFABAA6176F238C00028ED9 /* Needs */,
+				8EFABA78176F184F00028ED9 /* UIKit.framework */,
+				8EFABA7A176F184F00028ED9 /* Foundation.framework */,
+				8EFABA7C176F184F00028ED9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EFABA7E176F184F00028ED9 /* KRImageParser */ = {
+			isa = PBXGroup;
+			children = (
+				8EFABA87176F184F00028ED9 /* AppDelegate.h */,
+				8EFABA88176F184F00028ED9 /* AppDelegate.m */,
+				8EFABA90176F184F00028ED9 /* ViewController.h */,
+				8EFABA91176F184F00028ED9 /* ViewController.m */,
+				8EFABA93176F184F00028ED9 /* ViewController.xib */,
+			);
+			path = KRImageParser;
+			sourceTree = "<group>";
+		};
+		8EFABA7F176F184F00028ED9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EFABA80176F184F00028ED9 /* KRImageParser-Info.plist */,
+				8EFABA81176F184F00028ED9 /* InfoPlist.strings */,
+				8EFABA84176F184F00028ED9 /* main.m */,
+				8EFABA86176F184F00028ED9 /* KRImageParser-Prefix.pch */,
+				8EFABA8A176F184F00028ED9 /* Default.png */,
+				8EFABA8C176F184F00028ED9 /* Default@2x.png */,
+				8EFABA8E176F184F00028ED9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			path = KRImageParser;
+			sourceTree = "<group>";
+		};
+		8EFABA9B176F185D00028ED9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8EFABA9C176F185D00028ED9 /* KRImageParser */,
+			);
+			name = Classes;
+			path = KRImageParser/Classes;
+			sourceTree = "<group>";
+		};
+		8EFABA9C176F185D00028ED9 /* KRImageParser */ = {
+			isa = PBXGroup;
+			children = (
+				8EFABA9D176F185D00028ED9 /* KRImageParser.h */,
+				8EFABA9E176F185D00028ED9 /* KRImageParser.m */,
+			);
+			path = KRImageParser;
+			sourceTree = "<group>";
+		};
+		8EFABAA6176F238C00028ED9 /* Needs */ = {
+			isa = PBXGroup;
+			children = (
+				8EFABAA4176F238700028ED9 /* CoreMedia.framework */,
+				8EFABAA2176F234600028ED9 /* AVFoundation.framework */,
+				8EFABAA0176F22D400028ED9 /* AssetsLibrary.framework */,
+			);
+			name = Needs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EFABA74176F184F00028ED9 /* KRImageParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EFABA98176F184F00028ED9 /* Build configuration list for PBXNativeTarget "KRImageParser" */;
+			buildPhases = (
+				8EFABA71176F184F00028ED9 /* Sources */,
+				8EFABA72176F184F00028ED9 /* Frameworks */,
+				8EFABA73176F184F00028ED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRImageParser;
+			productName = KRImageParser;
+			productReference = 8EFABA75176F184F00028ED9 /* KRImageParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EFABA6D176F184F00028ED9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Kuo-Ming Lin";
+			};
+			buildConfigurationList = 8EFABA70176F184F00028ED9 /* Build configuration list for PBXProject "KRImageParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8EFABA6C176F184F00028ED9;
+			productRefGroup = 8EFABA76176F184F00028ED9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EFABA74176F184F00028ED9 /* KRImageParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EFABA73176F184F00028ED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFABA83176F184F00028ED9 /* InfoPlist.strings in Resources */,
+				8EFABA8B176F184F00028ED9 /* Default.png in Resources */,
+				8EFABA8D176F184F00028ED9 /* Default@2x.png in Resources */,
+				8EFABA8F176F184F00028ED9 /* Default-568h@2x.png in Resources */,
+				8EFABA95176F184F00028ED9 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EFABA71176F184F00028ED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFABA85176F184F00028ED9 /* main.m in Sources */,
+				8EFABA89176F184F00028ED9 /* AppDelegate.m in Sources */,
+				8EFABA92176F184F00028ED9 /* ViewController.m in Sources */,
+				8EFABA9F176F185D00028ED9 /* KRImageParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8EFABA81176F184F00028ED9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EFABA82176F184F00028ED9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8EFABA93176F184F00028ED9 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EFABA94176F184F00028ED9 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EFABA96176F184F00028ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8EFABA97176F184F00028ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EFABA99176F184F00028ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KRImageParser/KRImageParser-Prefix.pch";
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INFOPLIST_FILE = "KRImageParser/KRImageParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8EFABA9A176F184F00028ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KRImageParser/KRImageParser-Prefix.pch";
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INFOPLIST_FILE = "KRImageParser/KRImageParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EFABA70176F184F00028ED9 /* Build configuration list for PBXProject "KRImageParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EFABA96176F184F00028ED9 /* Debug */,
+				8EFABA97176F184F00028ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EFABA98176F184F00028ED9 /* Build configuration list for PBXNativeTarget "KRImageParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EFABA99176F184F00028ED9 /* Debug */,
+				8EFABA9A176F184F00028ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EFABA6D176F184F00028ED9 /* Project object */;
+}

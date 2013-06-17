@@ -1,16 +1,36 @@
-## Supports
+//
+//  ViewController.m
+//  KRImageParser
+//
+//  Created by Kalvar on 13/6/17.
+//  Copyright (c) 2013年 Kuo-Ming Lin. All rights reserved.
+//
 
-KRImageParser supports ARC.
-
-## How To Get Started
-
-KRImageParser can easy parse the AssetsLibrary image and capture the Video image.
-
-``` objective-c
+#import "ViewController.h"
 #import "KRImageParser.h"
 
-@property (nonatomic, weak) IBOutlet UIImageView *outImageView;
+@interface ViewController ()
+
 @property (nonatomic, assign) NSString *_photoPath;
+
+@end
+
+@implementation ViewController
+
+@synthesize outImageView;
+@synthesize _photoPath;
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+	self._photoPath = nil;
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    
+}
 
 #pragma --mark Parsing Methods
 -(void)parseMethod1
@@ -97,12 +117,10 @@ KRImageParser can easy parse the AssetsLibrary image and capture the Video image
     //[self parseMethod3]; //It works
     //[self parseMethod4]; //It works
 }
-```
 
-## Version
+-(void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
+{
+    [picker dismissViewControllerAnimated:YES completion:nil];
+}
 
-KRImageParser now is V1.0.
-
-## License
-
-KRImageParser is available under the MIT license ( or Whatever you wanna do ). See the LICENSE file for more info.
+@end
